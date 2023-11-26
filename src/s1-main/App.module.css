@@ -3,9 +3,19 @@
 }
 
 .hw {
-
+    width: 100%;
+    padding: 24px 70px 24px;
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
 }
 
 .hwTitle {
-
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 131px;
+    padding-left: 70px;
+    height: 168px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid rgba(217, 217, 217, 1);
 }

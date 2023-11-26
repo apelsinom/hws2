@@ -1,18 +1,35 @@
 .sendForm {
-
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
 }
 
 .textarea {
-
+    overflow: hidden;
+    resize: none;
+    width: 976px;
+    height: auto;
+    min-height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: start;
+    padding-left: 24px;
 }
 
 .button {
-
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 44px;
+    background: rgba(0, 102, 204, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }
