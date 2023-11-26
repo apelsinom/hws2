@@ -24,12 +24,16 @@
     background: rgba(0, 102, 204, 1);
     border: none;
     color: rgba(255, 255, 255, 1);
+    transition: transform 0.3s;
+    font-weight: 600;
 }
 
 .button:hover {
-
+    background: rgba(255, 255, 255, 1);
+    border: 2px solid rgba(0, 102, 204, 1);
+    color: rgba(0, 102, 204, 1);
 }
 
 .button:active {
-
+    transform: scale(1.2);
 }
