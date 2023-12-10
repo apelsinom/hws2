@@ -10,9 +10,10 @@
 
 .hwTitle {
     font-family: 'Montserrat', sans-serif;
-    padding-top: 131px;
     padding-left: 70px;
-    height: 168px;
+    height: 70px;
+    display: flex;
+    align-items: flex-end;
     font-size: 22px;
     font-weight: 600;
     line-height: 26px;
