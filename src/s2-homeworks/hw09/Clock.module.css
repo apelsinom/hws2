@@ -1,14 +1,33 @@
 .buttonsContainer {
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
 }
 
 .clock {
+    position: relative;
 }
 
 .watch {
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
 }
 
 .watch strong {
 }
 
 .more {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 30px;
 }
